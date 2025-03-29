@@ -1,7 +1,7 @@
 {
-    "name": "reactjs-vite-tailwind-vercel",
+    "name": "postcode-lottery-checker",
     "version": "1.0.0",
-    "description": "ReactJS app with Vite, Tailwind",
+    "description": "Check your postcode lottery results and receive notifications",
     "type": "module",
     "scripts": {
         "dev": "vite",
@@ -11,8 +11,10 @@
     },
     "dependencies": {
         "@sentry/browser": "^8.41.0",
+        "@zapt/zapt-js": "^1.0.21",
         "react": "^18.2.0",
-        "react-dom": "^18.2.0"
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.22.3"
     },
     "devDependencies": {
         "@vitejs/plugin-react": "^4.3.4",
